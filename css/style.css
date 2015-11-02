@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%; max-height: 100%;
+}
+
+/* bagian pertama */
+#pertama{
+    background: url(../asset/Untitled-1.jpg);
+    background-attachment: fixed; /*efek parallax scroling*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    
+    height: 650px;
+    padding-top: 20px;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.konten{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* float:left; gunanya untuk membuat elemennya otomatis berdempetan */
+.kolom_3{
+    
+    width: 300px; float: left;
+}
+
+.kolom_3_tengah{
+    margin: 0 30px;
+}
+
+#logo{
+    display: block; width: 100px; margin: 0 auto;
+}
+
+#menu{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 960px;
+    margin: auto;
+    height: 50px; line-height: 50px;
+    font-size: 20px; margin-top: 20px;
+}
+
+#menu a{
+    display: block; text-align: center; color: white;
+}
+
+#menu a:hover{ 
+    color: #aaff77;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out; transition: all 0.3s ease-in-out;
+}
+
+#box_sd{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px 0;
+    
+}
+
+.h1{
+    font-family: 'Lobster', cursive;
+}
+
+.imagess{
+    width: 100px;
+    height: 100px;
+}
+
+#box_sd a{
+    display: block;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 0; /*jarak antara border dg tulisan*/
+    width: 300px; /*lebar tombol*/
+    margin: 25px auto 0 auto; /*auto agar posisi berada ditengah*/
+    border-radius: 5px;
+}
+
+#box_sd a:hover{
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
+}
+
+
+/* Bagian kedua */
+
+#kedua{
+    background-color: rgba(0,0,0,0.4);
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+h2{
+    font-size: 40px;
+    padding: 30px 0 45px 0;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.karya-saya{
+    color: #ecf0f1;
+}
+
+#kedua img{
+    width: 250px; height: 250px;
+    border-radius: 50%; /*mengubahgambar menjadi bulat*/
+    margin-bottom: 20px;
+}  
+
+.setiap_karya_gambar{
+    position: relative;
+}
+
+.setiap_karya_gambar p{
+    position: absolute;
+    top: 0px; left: 25px;
+    width: 250px; height: 250px; line-height: 250px;
+    text-align: center; font-size: 25px;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    border-radius: 50%;
+    display: none;
+}
+
+.setiap_karya_gambar:hover p{
+    display: block;
+}
+
+.deskripsi{
+    font-size: 22px;
+}
+
+
+
+/* Bagian ketiga */
+
+#ketiga{
+    background: url(../asset/IMG_8833.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    
+    height: 600px;
+    padding-top: 40px;
+}
+
+#ketiga h2{
+    padding: 5px;
+
+}
+
+
+/*Bagian keempat*/
+
+#keempat{
+    background-color: white;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    
+    height: 600px;
+    padding-top: 40px;
+}
+
+#keempat h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    background-color: forestgreen;
+}
